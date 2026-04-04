@@ -114,3 +114,4 @@ Api.env
 autho.py
 auth_utils.py
 
+outputs/

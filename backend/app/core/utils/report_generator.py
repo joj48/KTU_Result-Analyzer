@@ -61,7 +61,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.drawing.image import Image as XLImage
 
 #---------------assist file--------------------------------------
-from utils.subject_utils import build_course_map
+from app.core.utils.subject_utils import build_course_map
 
 # ═══════════════════════════════════════════════════════════════
 # SHARED DESIGN TOKENS

@@ -10,7 +10,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.auth import router as auth_router
 from app.dependencies.auth_deps import verify_token,Depends
-from app.api import student
+from app.api import student,public_analysis,private_analysis,issue
+
 app = FastAPI()
 
 app.add_middleware(
@@ -32,3 +33,6 @@ def protected_route(user=Depends(verify_token)):
     }
 
 app.include_router(student.router)
+app.include_router(public_analysis.router)
+app.include_router(private_analysis.router) 
+app.include_router(issue.router)
