@@ -15,7 +15,7 @@ Smart result analysis system that automates university result parsing, departmen
 - [Frontend Setup](#frontend-setup)
 - [Backend Setup](#backend-setup)
 - [Tech Stack](#technologies-used)
-- [Authors and Acknowledgements](#authors-and-acknowledgements)
+- [Authors](#authors)
 - [License](#license)
 
 ---
@@ -84,9 +84,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## Authors and Acknowledgements
-
-This academic project was developed at **Carmel College of Engineering and Technology, Alappuzha, Kerala**.
+## Authors 
 
 **Authors:**
 - Jojan Joji
