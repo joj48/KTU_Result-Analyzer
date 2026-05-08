@@ -95,13 +95,13 @@ uvicorn app.main:app --reload
 **Mentor:**  
 Ms. Divya V. L.
 
-> *This is an academic project submitted as part of our coursework at Carmel College of Engineering and Technology, Alappuzha, Kerala. We acknowledge the guidance of our mentor, Ms. Divya VL, and the open-source tools/frameworks on which this project was built.*
+> *This is an open-source academic project submitted as part of our coursework at Carmel College of Engineering and Technology, Alappuzha, Kerala. We acknowledge the guidance of our mentor, Ms. Divya VL, and the open-source tools/frameworks on which this project was built.*
 
 ---
 
 ## License
 
-This project uses the MIT license where applicable. Please consult the `frontend/src/Attributions.md` for third-party asset licenses.
+This project uses the MIT license where applicable.
 
 ---
 
